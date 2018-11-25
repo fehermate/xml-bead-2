@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ceg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/D:/xml-bead/beadando.xsd">
+    <Vezetok>
+        <Vezeto VezetoID="0">
+            <Nevjegykartya>
+                <E-Mail>ceo@company.com</E-Mail>
+                <Vezeteknev>Tóth</Vezeteknev>
+                <Keresztnev>János</Keresztnev>
+                <Telefonszam>06701234567</Telefonszam>
+            </Nevjegykartya>
+            <Eletkor>50</Eletkor>
+            <Pozicio>Vezérigazgató</Pozicio>
+        </Vezeto>
+        <Vezeto VezetoID="1">
+            <Nevjegykartya>
+                <E-Mail>importantguy@company.com</E-Mail>
+                <Vezeteknev>Kovács</Vezeteknev>
+                <Keresztnev>Ádám</Keresztnev>
+                <Keresztnev>Zoltán</Keresztnev>
+                <Telefonszam>06301234567</Telefonszam>
+            </Nevjegykartya>
+            <Eletkor>28</Eletkor>
+            <Pozicio>Ügyvezető igazgató</Pozicio>
+        </Vezeto>
+        <Vezeto VezetoID="2">
+            <Nevjegykartya>
+                <E-Mail>valami@company.com</E-Mail>
+                <Vezeteknev>Szabóné Szűcs</Vezeteknev>
+                <Keresztnev>Éva</Keresztnev>
+                <Telefonszam>06201234567</Telefonszam>
+            </Nevjegykartya>
+            <Eletkor>29</Eletkor>
+            <Pozicio>Pénzügyi igazgató</Pozicio>
+        </Vezeto>
+        <Vezeto VezetoID="3">
+            <Nevjegykartya>
+                <E-Mail>admin@company.com</E-Mail>
+                <Vezeteknev>Csabai</Vezeteknev>
+                <Keresztnev>Zsolt</Keresztnev>
+                <Telefonszam>06801234567</Telefonszam>
+            </Nevjegykartya>
+            <Eletkor>30</Eletkor>
+            <Pozicio>Műszaki igazgató</Pozicio>
+        </Vezeto>
+    </Vezetok>
+    <Reszlegek>
+        <Reszleg ReszlegID="1" Vezeto="1">
+            <Nev>Részleg1</Nev>
+            <Menedzser MenedzserID="1">
+                <Eletkor>21</Eletkor>
+                <Fizetes>280000</Fizetes>
+                <Teljes_nev>Tóth Péter</Teljes_nev>
+                <Cim>
+                    <Iranyitoszam>1029</Iranyitoszam>
+                    <Orszag>Magyarország</Orszag>
+                    <Varos>Budapest</Varos>
+                    <Utca>Teszt</Utca>
+                    <Hazszam>1</Hazszam>
+                </Cim>
+            </Menedzser>
+        </Reszleg>
+        <Reszleg ReszlegID="2" Vezeto="2">
+            <Nev>Pénzügyi részleg</Nev>
+            <Menedzser MenedzserID="11">
+                <Eletkor>22</Eletkor>
+                <Fizetes>290000</Fizetes>
+                <Teljes_nev>Tóth Péter Károly</Teljes_nev>
+                <Cim>
+                    <Iranyitoszam>1129</Iranyitoszam>
+                    <Orszag>Magyarország</Orszag>
+                    <Varos>Budapest</Varos>
+                    <Utca>Teszt</Utca>
+                    <Hazszam>2</Hazszam>
+                </Cim>
+            </Menedzser>
+        </Reszleg>
+        <Reszleg ReszlegID="3" Vezeto="3">
+            <Nev>Műszaki részleg</Nev>
+            <Menedzser MenedzserID="12">
+                <Eletkor>23</Eletkor>
+                <Fizetes>300000</Fizetes>
+                <Teljes_nev>Tóth Péter László</Teljes_nev>
+                <Cim>
+                    <Iranyitoszam>1229</Iranyitoszam>
+                    <Orszag>Magyarország</Orszag>
+                    <Varos>Budapest</Varos>
+                    <Utca>Teszt</Utca>
+                    <Hazszam>3</Hazszam>
+                </Cim>
+            </Menedzser>
+        </Reszleg>
+    </Reszlegek>
+    <Alkalmazottak>
+        <Alkalmazott AlkalmazottID="1" Reszleg="2">
+            <Belepokartya>
+                <Nev>Nagy Péter</Nev>
+                <Pozicio>Munkásember</Pozicio>
+                <Kep>
+                    <Kep_helye>https://company.com/images/private/nagypeter_20180101.jpg</Kep_helye>
+                    <Keszites_datuma>2018.01.01.</Keszites_datuma>
+                </Kep>
+            </Belepokartya>
+        </Alkalmazott>
+    </Alkalmazottak>
+</Ceg>
